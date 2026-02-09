@@ -2,10 +2,13 @@
 import { useState } from "react";
 
 const BirthdayPage = ({ onNext }: { onNext: () => void }) => {
+  const baseUrl = import.meta.env.BASE_URL;
+  const iframeUrl = `${baseUrl}intro/index.html`;
+  
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-50 via-purple-50 to-red-50">
       <iframe
-        src="./intro/index.html"
+        src={iframeUrl}
         className="w-full h-full border-none"
         title="Birthday"
       />
