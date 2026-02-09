@@ -5,7 +5,7 @@ const BirthdayPage = ({ onNext }: { onNext: () => void }) => {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-50 via-purple-50 to-red-50">
       <iframe
-        src="/will-you-be-my-valentine/intro/index.html"
+        src="./intro/index.html"
         className="w-full h-full border-none"
         title="Birthday"
       />
