@@ -144,7 +144,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Чи будеш ти моєю валентинкою?</h1>
+          <h1 className="my-4 text-4xl" style={{ color: "black" }}>Чи будеш ти моєю валентинкою?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700 transition-all duration-300`}

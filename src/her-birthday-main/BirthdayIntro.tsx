@@ -196,21 +196,21 @@ const BirthdayIntro: React.FC = () => {
       <div id="wrap">
         <div id="text">
           <div id="code">
-            <span className="say">Привіт, моя люба 💞</span>
+            <span className="say" style={{ color: "black" }}>Привіт, моя люба 💞</span>
             <br />
-            <span className="say">День Святого Валентина 💕</span>
+            <span className="say" style={{ color: "black" }}>День Святого Валентина 💕</span>
             <br />
-            <span className="say">Ти найсвітліша в моєму житті 🌟</span>
+            <span className="say" style={{ color: "black" }}>Ти найсвітліша в моєму житті 🌟</span>
             <br />
-            <span className="say">
+            <span className="say" style={{ color: "black" }}>
               Хочу дарувати тобі все своє кохання 💗
             </span>
             <br />
-            <span className="say">Ти так прекрасна 😍</span>
+            <span className="say" style={{ color: "black" }}>Ти так прекрасна 😍</span>
             <br />
-            <span className="say">Люблю тебе від всього серця 💕</span>
+            <span className="say" style={{ color: "black" }}>Люблю тебе від всього серця 💕</span>
             <br />
-            <span className="say">Будь моєю валентинкою... назавжди? 💍</span>
+            <span className="say" style={{ color: "black" }}>Будь моєю валентинкою... назавжди? 💍</span>
             <br />
           </div>
         </div>

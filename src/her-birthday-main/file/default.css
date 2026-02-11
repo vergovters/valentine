@@ -20,6 +20,8 @@ a {
   width: 1100px;
   height: 680px;
   margin-top: 10px;
+  /* Щоб композиція виглядала однаково на менших екранах */
+  transform-origin: top left;
 }
 #text {
   width: 272px;
@@ -58,6 +60,31 @@ a {
   margin: 0 auto;
   width: 1100px;
   height: 680px;
+}
+
+/* Масштабування всієї сцени для малих екранів, щоб текст не ламався дивно */
+@media (max-width: 1200px) {
+  #wrap {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 992px) {
+  #wrap {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 768px) {
+  #wrap {
+    transform: scale(0.65);
+  }
+}
+
+@media (max-width: 576px) {
+  #wrap {
+    transform: scale(0.55);
+  }
 }
 #error {
   margin: 0 auto;
