@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
     "deploy": "gh-pages -d dist",
     "build:dev": "tsc && vite build",
     "deploy:dev": "vite build && gh-pages -d dist",
