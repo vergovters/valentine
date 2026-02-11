@@ -1,17 +1,13 @@
 "use client";
 import { useState } from "react";
+import BirthdayIntro from "./her-birthday-main/BirthdayIntro";
 
 const BirthdayPage = ({ onNext }: { onNext: () => void }) => {
-  const baseUrl = import.meta.env.BASE_URL;
-  const iframeUrl = `${baseUrl}intro/index.html`;
-  
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-50 via-purple-50 to-red-50">
-      <iframe
-        src={iframeUrl}
-        className="w-full h-full border-none"
-        title="Birthday"
-      />
+    <div className="w-full h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-50 via-purple-50 to-red-50 relative overflow-hidden">
+      <div className="w-full h-full flex items-center justify-center">
+        <BirthdayIntro />
+      </div>
       <button
         onClick={onNext}
         className="absolute bottom-6 right-6 px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold rounded-full hover:from-pink-600 hover:to-purple-600 transition-all shadow-lg"
